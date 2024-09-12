@@ -1,0 +1,91 @@
+/*Aqui irei organizar o meu hero*/
+.hero {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 900px;
+    max-width:1800px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+.hero_art { 
+    background-image: url('/src/5053309.jpg');
+
+    max-width: 1800px;
+    height: 900px;
+    margin: auto;
+}
+.text_hero {
+    margin-left: 30px;
+}
+.text_hero > h1 {
+    font-size: 64px;
+    color: white;
+    margin-bottom: 20px;
+}
+.text_hero > p {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+}
+.img_hero > img {
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 100%;
+     padding: 10px;
+}
+.img_hero > img:hover {
+    height: 330px;
+    transition-duration: 1s;
+
+}
+
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.botao > a {
+    text-decoration: none;
+    color: white;
+}
+.botao:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 500px){
+    /*Parte: hero */
+    .hero {
+        height: 750px;
+    }
+    .hero_art {
+        height: 750px;
+    }
+    .text_hero {
+        padding-bottom: 30px;
+    }
+    .text_hero > h1 {
+        font-size: 35px;
+        margin-left: 0;
+    }
+    .botao { 
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    /*parte: hero*/
+    .text_hero > p {
+        font-size: 25px;
+    }
+    .img_hero > img {
+        height: 250px;
+    }
+  }
