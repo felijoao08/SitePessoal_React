@@ -17,9 +17,9 @@ function App() {
             <SobreMim/>
             <h1 id="projetos_title">Projetos</h1>
             <section className='projetos'>
-              <Projetos foto='enapne.png' tituloCard='eNAPNE' textoCard='Sitema desenvolvido para atender as demandas do NAPNE.' link='Ir ate o repositorio' repositorio='https://github.com/gilbran-ifrn/enapne'/> 
-              <Projetos foto='BlushGlamour-footer.png'tituloCard='BlushGlamour' textoCard='Sistema desenvolvido para atender as demandas de uma loja online de maquiagens.' link='Ir ate o repositorio' repositorio='https://github.com/Everaldo-ifrn/Projeto-BlushGlamour' /> 
-              <Projetos foto='jardel.png'tituloCard='Site Professor Jardel Pereira' textoCard='Site Pessoal do Professor de quimica do IF Ceará-Mirim, Jardel Ricardo Pereira de França.' link='Ir ate o repositorio' repositorio='https://github.com/felijoao08/aweb/tree/main/2-3-bimestre/site-professor'/> 
+              <Projetos foto='enapne.png' tituloCard='eNAPNE' textoCard='Sitema desenvolvido para atender as demandas do NAPNE.' link='Ir ate o repositorio' repositorio='https://github.com/gilbran-ifrn/enapne' img1='python.png' img2='tecnologiaHTML.png' img3='css.png' img4='flask.png'/> 
+              <Projetos foto='BlushGlamour-footer.png'tituloCard='BlushGlamour' textoCard='Sistema desenvolvido para atender as demandas de uma loja online de maquiagens.' link='Ir ate o repositorio' repositorio='https://github.com/Everaldo-ifrn/Projeto-BlushGlamour' img1='python.png' img2='tecnologiaHTML.png' img3='css.png' img4='flask.png' /> 
+              <Projetos foto='jardel.png'tituloCard='Site Professor Jardel Pereira' textoCard='Site Pessoal do Professor de quimica do IF Ceará-Mirim, Jardel Ricardo Pereira de França.' link='Ir ate o repositorio' repositorio='https://github.com/felijoao08/aweb/tree/main/2-3-bimestre/site-professor' img1='tecnologiaHTML.png' img2='css.png'/> 
             </section>
             <section id="section_curiosidades">
               <h1 className="title_curiosidades">curiosidades</h1>
